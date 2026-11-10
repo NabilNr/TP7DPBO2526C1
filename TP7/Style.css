@@ -1,0 +1,108 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #555;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+header nav a:hover {
+    background: #f0ad4e;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #333;
+    color: white;
+}
+
+.form-container {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="text"], input[type="number"], input[type="date"], select {
+    padding: 10px;
+    margin: 5px 0;
+    width: calc(100% - 22px);
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #4cae4c;
+}
+
+.btn-edit {
+    background: #f0ad4e;
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.btn-delete {
+    background: #d9534f;
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.btn-cancel {
+    display: inline-block;
+    margin-left: 10px;
+    color: #333;
+    text-decoration: none;
+}
