@@ -36,3 +36,13 @@ Website ini mengusung tema **Manajemen Liga Basket**, dirancang untuk mengelola 
    - Seluruh operasi basis data menggunakan **PDO (PHP Data Objects)** dengan **Prepared Statement** (`prepare()` & `execute()`) untuk menjamin keamanan dari SQL Injection.
 
 4. **Koneksi Database (`config/db.php`)**:
+   - Mengenkapsulasi koneksi MySQL ke dalam class `Database` yang dipanggil oleh constructor di setiap class entitas.
+  
+## DOKUM
+
+
+https://github.com/user-attachments/assets/223268b3-27d4-41dc-b2ea-6e8706a09daa
+
+
+
+
